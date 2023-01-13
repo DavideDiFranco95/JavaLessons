@@ -10,8 +10,8 @@ public class Competition {
         p4= new Programmer("Aldo","JavaScript", 7);
 
         Team team1,team2;
-        team1= new Team("TeamBlu",p1,p2);
-        team2= new Team("TeamRosso",p3,p4);
+        team1= new Team("TeamBlue",p1,p2);
+        team2= new Team("TeamRed",p3,p4);
 
 
         CompetitionRules rules= CompetitionRules.getPrintRules();

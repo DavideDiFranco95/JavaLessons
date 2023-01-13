@@ -2,8 +2,7 @@ package Exercise.develhope.Exercise02;
 
 public class Team {
 
-
-        public String teamName;
+    public String teamName;
 
         public Programmer p1;
         public Programmer p2;
