@@ -1,4 +1,4 @@
-package Exercise.develhope.Exercise05;
+package Exercise.develhope.Interfaces;
 
 public interface ILearningPerson {
     void studyAtHome();

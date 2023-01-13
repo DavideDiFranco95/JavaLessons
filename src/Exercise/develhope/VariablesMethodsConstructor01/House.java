@@ -1,4 +1,4 @@
-package Exercise.develhope.Exercise03;
+package Exercise.develhope.VariablesMethodsConstructor01;
 
 public class House {
     public String address;

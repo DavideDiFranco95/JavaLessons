@@ -1,4 +1,4 @@
-package Exercise.develhope.Exercise06;
+package Exercise.develhope.Overload;
 
 public class TestingClass {
     public static void main(String[] args) {

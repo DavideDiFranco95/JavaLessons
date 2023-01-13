@@ -1,4 +1,4 @@
-package Exercise.develhope.Exercise02;
+package Exercise.develhope.ClassesAndObjects02;
 
 public class Programmer {
     public String name;

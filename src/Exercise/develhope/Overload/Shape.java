@@ -1,4 +1,4 @@
-package Exercise.develhope.Exercise06;
+package Exercise.develhope.Overload;
 
 public class Shape {
     public String shapeName;

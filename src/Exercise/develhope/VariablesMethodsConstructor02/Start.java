@@ -1,4 +1,4 @@
-package Exercise.develhope.Exercise04;
+package Exercise.develhope.VariablesMethodsConstructor02;
 
 public class Start {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Exercise.develhope.Exercise01;
+package Exercise.develhope.ClassesAndObjects01;
 
 public class TestProgrammers {
     public static void main(String[] args) {

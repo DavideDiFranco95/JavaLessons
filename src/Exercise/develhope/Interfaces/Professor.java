@@ -1,4 +1,4 @@
-package Exercise.develhope.Exercise05;
+package Exercise.develhope.Interfaces;
 
 public class Professor extends CollegePerson implements ITeachingPerson {
     @Override

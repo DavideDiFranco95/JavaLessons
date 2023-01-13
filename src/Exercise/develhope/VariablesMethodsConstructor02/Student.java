@@ -1,4 +1,4 @@
-package Exercise.develhope.Exercise04;
+package Exercise.develhope.VariablesMethodsConstructor02;
 
 public class Student {
     public String name;
