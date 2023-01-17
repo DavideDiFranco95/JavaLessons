@@ -15,9 +15,9 @@ public class Competition {
 
 
         CompetitionRules rules= CompetitionRules.getPrintRules();
-        System.out.println(rules.getCompetitionRules1() + "\n" + rules.getCompetitionRules2() + "\n" + rules.getCompetitionRules3());
-        team1.printTeamDetails(team1);
-        team2.printTeamDetails(team2);
+        System.out.println("First Rule " + rules.getCompetitionRules1() + "\n" + "Second Rule " +  rules.getCompetitionRules2() + "\n" + "Third Rule " +  rules.getCompetitionRules3());
+        team1.printTeamDetails();
+        team2.printTeamDetails();
 
 
     }

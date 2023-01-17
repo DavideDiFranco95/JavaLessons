@@ -6,7 +6,7 @@ public class Teacher {
         this.name=name;
         System.out.println(this.name + " Has been Created!");
     }
-    public void assignGrade(Student student,int finalGrade){
-         student.grade=finalGrade;
+    public int assignGrade(Student student, int finalGrade){
+         return student.grade=finalGrade;
     }
 }

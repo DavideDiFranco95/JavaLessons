@@ -13,10 +13,12 @@ public class Team {
         this.p2 = p2;
     }
 
-    public void printTeamDetails(Team team){
-            System.out.println(team.teamName);
-            System.out.println(team.p1.printProgrammerDetails(p1));
-            System.out.println(team.p2.printProgrammerDetails(p2));
+    public void printTeamDetails(){
+        System.out.println("Team Name: " + this.teamName);
+        System.out.println("Programmer P1: ");
+        this.p1.printProgrammerDetails();
+        System.out.println("Programmer P2: ");
+        this.p2.printProgrammerDetails();
         }
 
 

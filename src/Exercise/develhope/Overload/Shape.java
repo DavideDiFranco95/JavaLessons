@@ -8,34 +8,23 @@ public class Shape {
         System.out.println("An Object's Shape has been created!");
         this.shapeName="undefined Shape Name";
     }
-    public Shape(String shapeName,int numberOfEdges,double radius){
-        this.shapeName=shapeName;
-        this.numberOfEdges=numberOfEdges;
-        radius=radius;
+    public Shape(double radius){
+        this.shapeName="Circle";
         System.out.println("A Circle has been created!");
     }
-    public Shape(String shapeName,int numberOfEdges,int edges,double edgeLength){
-        this.shapeName=shapeName;
-        this.numberOfEdges=numberOfEdges;
-        edges=edges;
-        edgeLength=edgeLength;
+    public Shape(int edges,double edgeLength){
+        this.shapeName="Square";
+        this.numberOfEdges=4;
         System.out.println("A Square has been created!");
     }
-    public Shape(String shapeName,int numberOfEdges,int edges,double edge1,double edge2){
-        this.shapeName=shapeName;
-        this.numberOfEdges=numberOfEdges;
-        edges=edges;
-        edge1=edge1;
-        edge2=edge2;
+    public Shape(int edges,double edge1,double edge2){
+        this.shapeName="Rectangle";
+        this.numberOfEdges=4;
         System.out.println("A Rectangle has been created!");
     }
-    public Shape(String shapeName,int numberOfEdges,int edges,double edge1,double edge2,double edge3){
-        this.shapeName=shapeName;
-        this.numberOfEdges=numberOfEdges;
-        edges=edges;
-        edge1=edge1;
-        edge2=edge2;
-        edge3=edge3;
+    public Shape(int edges,double edge1,double edge2,double edge3){
+        this.shapeName="Triangle";
+        this.numberOfEdges=3;
         System.out.println("A Triangle has been created!");
     }
 

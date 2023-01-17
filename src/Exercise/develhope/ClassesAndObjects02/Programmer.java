@@ -11,8 +11,8 @@ public class Programmer {
         this.yearsOfExperience=yearsOfExperience;
     }
 
-    public String printProgrammerDetails(Programmer p1) {
-        return name + " Language: " + programmingLanguage + " years of experience: " + yearsOfExperience;
+    public void printProgrammerDetails(){
+        System.out.println(this.name + " " + this.programmingLanguage + " " + this.yearsOfExperience);
     }
 
 

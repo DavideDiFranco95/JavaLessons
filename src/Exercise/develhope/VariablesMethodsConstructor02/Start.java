@@ -8,7 +8,8 @@ public class Start {
         teacher1.assignGrade(student1,9);
         teacher1.assignGrade(student2,8);
 
-        System.out.println(student1.getStudentDetails(student1));
-        System.out.println(student2.getStudentDetails(student2));
+
+        student1.getStudentDetails();
+        student2.getStudentDetails();
     }
 }
