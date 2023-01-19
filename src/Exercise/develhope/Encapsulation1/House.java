@@ -1,13 +1,16 @@
 package Exercise.develhope.Encapsulation1;
 
-import lombok.AllArgsConstructor;
-
-@AllArgsConstructor
 
 public class House {
     private int floorNumbers;
     private String address;
     private String[] residentNames;
+
+    public House(int floorNumbers, String address, String[] residentNames) {
+        this.floorNumbers = floorNumbers;
+        this.address = address;
+        this.residentNames = residentNames;
+    }
 
     public int getFloorNumbers() {
         return floorNumbers;
