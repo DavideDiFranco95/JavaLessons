@@ -48,7 +48,7 @@ public class Start {
         Animal lion = new Lion();
         AnimalAbstract lion1 = new Lion();
         Lion lion2 = new Lion();
-        //3 metodi per richiamare la STESSA COSA
+        //3 metodi per richiamare la STESSA COSA su
         Animal zebra = new Zebra();
         Animal dolphin = new Dolphin();
 
