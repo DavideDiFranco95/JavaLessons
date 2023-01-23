@@ -4,7 +4,6 @@ import java.util.Scanner;
 
 public class Start {
     public static void main(String[] args) {
-        Person person= new Person();
         Scanner scanner= new Scanner(System.in);
         String name=scanner.nextLine();
         String surname=scanner.nextLine();
