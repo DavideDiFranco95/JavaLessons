@@ -1,10 +1,10 @@
 package Exercise.develhope.Encapsulation1;
 
+import java.util.Arrays;
+import java.util.Scanner;
+
 public class TesterClass {
-    public static String[] addResidentNames(){
-        String[] residentNames={"Davide","Golia","Fabrizio"};
-                return residentNames;
-    }
+
     public static void printResidentNames(House house){
         /**
          * Per printare i nomi divisi
@@ -19,7 +19,16 @@ public class TesterClass {
 
     }
     public static void main(String[] args) {
-        House house= new House(3,"Via degli Atenei 33/b",TesterClass.addResidentNames());
-        TesterClass.printResidentNames(house);
+
+        Scanner scanner= new Scanner(System.in);
+        int floor= scanner.nextInt();
+        scanner.nextLine();
+        String address= scanner.nextLine();
+        String[] residents= scanner.nextLine().split(",");
+        House house1=new House(floor,address,residents);
+        System.out.println(house1.getFloorNumbers());
+        System.out.println(house1.getAddress());
+        System.out.println(Arrays.toString(house1.getResidentNames()));
+        printResidentNames(house1);
     }
 }
