@@ -8,7 +8,7 @@ public class Student {
         this.grade=grade;
         System.out.println(this.name + " Has been Created!");
     }
-    public String getStudentDetails(){
-        return this.name + " " +  this.grade;
+    public void getStudentDetails(){
+        System.out.println(this.name + " " +  this.grade);
     }
 }
