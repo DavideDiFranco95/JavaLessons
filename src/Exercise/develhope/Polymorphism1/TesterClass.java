@@ -4,6 +4,6 @@ public class TesterClass {
     public static void main(String[] args) {
         Animal lion= new Animal("Lion");
         lion.animalSound();
-        lion.animalSound("Roarrrrrrr!");
+        lion.animalSound("High");
     }
 }

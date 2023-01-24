@@ -12,7 +12,13 @@ public class Animal {
 
     }
     public void animalSound(String intensity){
-
+        if(intensity.equals("High")){
+            System.out.println("Roarrrrrrrr!");
+        } else if (intensity.equals("Low")) {
+            System.out.println("Roarr!");
+        }else{
+            System.out.println("Cannot reproduce it properly");
+        }
     }
 
 }
