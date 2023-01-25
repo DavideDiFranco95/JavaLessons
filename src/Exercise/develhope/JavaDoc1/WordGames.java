@@ -20,7 +20,7 @@ public class WordGames {
      * method for print full name
      * @param name print the name
      * @param surname print the surname
-     * @return the full name
+     * will print the full name
      */
     public void getFullName(String name,String surname){
         System.out.println(name + surname);
