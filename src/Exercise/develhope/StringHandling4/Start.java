@@ -10,21 +10,17 @@ public class Start {
                 "in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur " +
                 "sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt " +
                 "mollit anim id est laborum.";
-        veryLongString.replaceAll("um","HUM");
+        veryLongString=veryLongString.replaceAll("um","HUM");
         System.out.println(veryLongString.indexOf("aliquip"));
         System.out.println(veryLongString.length());
 
-        String sub1= veryLongString.substring(0,199);
-        String sub2= veryLongString.substring(199,445);
+        String sub1= veryLongString.substring(0,199).trim();
+        String sub2= veryLongString.substring(199,448).trim();
 
         System.out.println(sub1);
         System.out.println(sub2);
 
-        System.out.println(sub1.indexOf("est"));
-        System.out.println(sub2.indexOf("est"));
-        System.out.println(sub1.indexOf("est") ^ sub2.indexOf("est"));
         System.out.println(sub1.contains("est") ^ sub2.contains("est"));
-
 
     }
 }
