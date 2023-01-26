@@ -22,6 +22,8 @@ public class Start {
 
         System.out.println(sub1.indexOf("est"));
         System.out.println(sub2.indexOf("est"));
+        System.out.println(sub1.indexOf("est") ^ sub2.indexOf("est"));
+        System.out.println(sub1.contains("est") ^ sub2.contains("est"));
 
 
     }
