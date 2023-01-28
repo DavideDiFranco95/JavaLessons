@@ -1,24 +1,45 @@
 package Exercise.develhope.Static;
 
+import java.util.Random;
+
 public class Badge {
     private static int totalNumberOfEmployees;
     private String badgeIdCode;
     public Employee employee;
     private static void keepTrackOfEmployeesNumber(){
         //aumentare di 1 il totalNumberOfEmployees
-
+        totalNumberOfEmployees=totalNumberOfEmployees+1;
     }
     private String generateBadgeIdCode(){
-        return "ABC" + employee.name + " " + employee.surname + "DEF";
+
+        String str1 = "";
+        String str2 = "";
+
+        for (int i=0; i<=2;i++){
+            Random rn = new Random();
+            char randomChar = (char)(rn.nextInt(90-65) + 'a');
+            str1+= randomChar;
+
+        }
+        for (int i=0; i<=2;i++) {
+            Random rn = new Random();
+            char randomChar = (char) (rn.nextInt(90-65) + 'a');
+            str2 += randomChar;
+        }
+        str1=str1.toUpperCase();
+        str2=str2.toUpperCase();
+        return str1 + this.employee.name + " " + this.employee.surname + str2;
     }
     public void showBadgeDetails(){
-        //System.out.println(keepTrackOfEmployeesNumber);
-        System.out.println(employee.getEmployeeDetails());
-        System.out.println(badgeIdCode);
+        String a="Total number of Employees "+totalNumberOfEmployees+".\n"+
+                "details of "+employee.getEmployeeDetails()+".\n"+
+                "badge ID Code " + badgeIdCode;
+        System.out.println(a);
     }
 
-    public Badge (String employeeThatNeedBadge) {
+    public Badge (Employee employeeThatNeedBadge) {
         keepTrackOfEmployeesNumber();
-        employeeThatNeedBadge=employee.getEmployeeDetails();
+        employee=employeeThatNeedBadge;
+        badgeIdCode=generateBadgeIdCode();
     }
 }

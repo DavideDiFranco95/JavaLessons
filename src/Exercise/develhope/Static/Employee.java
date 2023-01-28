@@ -6,13 +6,17 @@ public class Employee {
     public String address;
 
 
-    public Employee(String name, String surname, String address) {
-        this.name = name;
-        this.surname = surname;
-        this.address = address;
+    public Employee(String newEmployeeName, String newEmployeeSurname, String newEmployeeAddress) {
+        this.name = newEmployeeName;
+        this.surname = newEmployeeSurname;
+        this.address = newEmployeeAddress;
     }
 
-    public String getEmployeeDetails(){
-        return name;
+    public String getEmployeeDetails() {
+        return "Employee{" +
+                "name='" + name + '\'' +
+                ", surname='" + surname + '\'' +
+                ", address='" + address + '\'' +
+                '}';
     }
 }
