@@ -6,6 +6,10 @@ public class Person {
     private double height;
     private int age;
 
+    @Override
+    public String toString() {
+        return name + " " + surname + " " + height + " " + age;
+    }
 
     public String getName() {
         return name;

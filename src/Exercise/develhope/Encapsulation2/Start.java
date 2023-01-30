@@ -4,14 +4,14 @@ import java.util.Scanner;
 
 public class Start {
     public static void main(String[] args) {
+        Person p1= new Person();
         Scanner scanner= new Scanner(System.in);
-        String name=scanner.nextLine();
-        String surname=scanner.nextLine();
-        double height= scanner.nextDouble();
-        int age= scanner.nextInt();
-        System.out.printf("Name: %s ",name);
-        System.out.printf("Surname: %s ",surname);
-        System.out.printf("Height: %f ",height);
-        System.out.printf("Age: %d ",age);
+        p1.setName(scanner.nextLine());
+        p1.setSurname(scanner.nextLine());
+        p1.setHeight(scanner.nextDouble());
+        p1.setAge(scanner.nextInt());
+
+        System.out.println(p1);
+
     }
 }
