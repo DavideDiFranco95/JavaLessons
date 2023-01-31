@@ -1,0 +1,15 @@
+GALATEO INFORMATICO
+
+1) Indentare sempre il Codice bene lasciando 4 spazi ogni volta che si apre un nuovo blocco.
+2) Chiamare le variabili e i metodi con nomi che siano appropriati per l'utilizzo di quella variabile o metodo.
+3) Commentare il proprio codice ma è sbagliato sia non commentare affatto o commentare molto poco,
+sia commentare troppo.
+3.1) La cosa migliore sarebbe scrivere un codice più leggibile e pulito possibile utilizzando i commenti solo nelle
+parti più complesse o dove in generale sia necessario.
+4) Sarebbe preferibile non lasciare righe vuote all'interno di un blocco.
+5) Schema per generare una classe:
+- Attributi Statici;
+- Attributi d'Istanza;
+- Costruttori;
+- Getters & Setters;
+- Metodi.
