@@ -15,7 +15,8 @@ public class TestingClass {
         Set<Integer> set = new HashSet<>(randomNumbers.size());
         randomNumbers.removeIf(p-> !set.add(p));
         System.out.println(randomNumbers);
-        randomNumbers.sort(Comparator.comparingInt(Integer::intValue));
+        //randomNumbers.sort(Comparator.comparingInt(Integer::intValue)); //Ordine crescente
+        Collections.sort(randomNumbers,Collections.reverseOrder());
         System.out.println(randomNumbers);
 
 
