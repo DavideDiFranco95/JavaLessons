@@ -15,8 +15,7 @@ public class Student {
         this.marksAverage=marksAverage;
     }
     public static double getAverageMark(List<? extends Number> listOfMarks){
-        double value;
-        return value = ((listOfMarks.get(0).doubleValue() + listOfMarks.get(1).doubleValue())/listOfMarks.size());
+        return ((listOfMarks.get(0).doubleValue() + listOfMarks.get(1).doubleValue())/listOfMarks.size());
     }
 
     @Override
