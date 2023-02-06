@@ -49,9 +49,7 @@ public abstract class Character {
         return skills.get(i);
     }
     public boolean isAlive(){
-        if (lifePoints>0){
-            return true;
-        }else return false;
+        return lifePoints > 0;
     }
     public abstract void attack(Character character,Skill s);
 
