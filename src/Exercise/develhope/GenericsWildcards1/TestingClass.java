@@ -1,7 +1,6 @@
 package Exercise.develhope.GenericsWildcards1;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class TestingClass {

@@ -1,19 +1,18 @@
 package Exercise.develhope.TestSbarramento;
 
-/*public class Workman extends Employee{
+public class Workman extends Employee{
     private int weeklyWorkingHours;
 
-    @Override
-    public void setEfficiencyIndex(float efficiencyIndex) {
-        super.setEfficiencyIndex(efficiencyIndex);
+    public Workman(int id, String name,float efficiencyIndex,int weeklyWorkingHours) {
+        super(id, name,efficiencyIndex);
+        this.weeklyWorkingHours=weeklyWorkingHours;
     }
 
-    //public Workman (int weeklyWorkingHours){
-    //    this.WeeklyWorkingHours= setWeeklyWorkingHours;
-    //}
+
+
     @Override
     public boolean canApplyForPromotion() {
-        return false;
+        return weeklyWorkingHours > 35 && getEfficiencyIndex() > 0.65F;
     }
 
     @Override
@@ -25,5 +24,13 @@ package Exercise.develhope.TestSbarramento;
     public void setWeeklyWorkingHours(int weeklyWorkingHours) {
         this.weeklyWorkingHours = weeklyWorkingHours;
     }
+    @Override
+    public void setEfficiencyIndex(float efficiencyIndex) {
+        super.setEfficiencyIndex(efficiencyIndex);
+    }
+
+    @Override
+    public float getEfficiencyIndex() {
+        return super.getEfficiencyIndex();
+    }
 }
-*/
