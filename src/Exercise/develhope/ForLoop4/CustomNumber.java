@@ -8,7 +8,7 @@ public class CustomNumber {
 
     public CustomNumber(int number) {
         Random random = new Random();
-        this.number =
+        this.number = number;
 
     }
 }
