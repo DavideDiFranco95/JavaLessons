@@ -11,7 +11,7 @@ public class Start {
         Scanner input = new Scanner(System.in);
         Random random = new Random();
         number = random.nextInt(1,10);
-        do {userNumber = random.nextInt();
+        do {userNumber = input.nextInt();
         }while(userNumber != number);
             System.out.println("GG!");
     }

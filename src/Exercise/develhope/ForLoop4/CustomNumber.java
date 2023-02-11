@@ -9,7 +9,6 @@ public class CustomNumber {
     public CustomNumber() {
         Random random = new Random();
         this.number = random.nextInt(1,12);
-        ;
     }
     public void getMultiplicationTable(){
         for (int i=12;i>=1;i--){
