@@ -10,9 +10,12 @@ public class Car {
     }
 
 
-    @Deprecated (since ="printCarDetails is too long", forRemoval = true )
-    public void printCarDetails(){
+    //@Deprecated (since ="printCarDetails is too long", forRemoval = true )
+    @Deprecated ()
+    public String printCarDetails(){
         System.out.println("Model Name of the Car : " + modelName + " "
+                + "Mileage of the Car : " + mileage);
+        return ("Model Name of the Car : " + modelName + " "
                 + "Mileage of the Car : " + mileage);
     }
     public void getCarDetails(){
